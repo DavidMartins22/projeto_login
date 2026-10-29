@@ -10,7 +10,13 @@
     Extra Grande (xl):	1200px ou 1280px	
     Gigante (2xl / xxl):	1400px ou 1536px
 */
- 
+@media screen and (min-width: 576px) and (max-width: 640px) {
+    body {
+        background-color: #5f2c82;
+        overflow: hidden;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Configurações para Tablet */
     body { 
         background-image: linear-gradient(to top, #49a04d, #5f2c82);

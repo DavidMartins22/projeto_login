@@ -14,6 +14,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) { /* Configurações para Tablet */
     body { 
         background-image: linear-gradient(to top, #49a04d, #5f2c82);
+        overflow: hidden;
     }
 
     section#login {
